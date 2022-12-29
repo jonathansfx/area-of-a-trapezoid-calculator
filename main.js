@@ -8,8 +8,8 @@ let b = document.getElementById("bEl").value;
 let h = document.getElementById("hEl").value;
 
 // Process
-let area = (("a" + "b")/2) * "h";
+area = ((a - (-b)))/2 * h;
 
 // Output
-document.getElementById("output").innerHTML = area;
+document.getElementById("output").innerHTML = area.toFixed(0);
 }
